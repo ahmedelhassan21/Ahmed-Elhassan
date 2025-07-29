@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المبروك - المناديل الصحية</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #fff;
+      color: #333;
+      overflow-x: hidden;
+      font-size: 20px;
+      line-height: 1.8;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background-color: #f8f8f8;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+    header img {
+      height: 100px;
+      max-width: 180px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #0050a4;
+      font-weight: 900;
+      font-size: 22px;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #d30000;
+    }
+    section {
+      padding: 60px 40px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    h2 {
+      color: #d30000;
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+    ul {
+      padding-right: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #f0f0f0;
+      color: #777;
+      font-size: 18px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    @media (max-width: 768px) {
+      body {
+        font-size: 18px;
+        padding: 0 10px;
+      }
+      header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 10px;
+      }
+      header img {
+        height: 80px;
+        margin-bottom: 10px;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding: 10px 0;
+      }
+      nav ul li a {
+        font-size: 20px;
+      }
+      section {
+        padding: 40px 20px;
+      }
+      h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+      }
+      footer {
+        font-size: 16px;
+        padding: 15px;
+      }
+    
+      nav ul {
+        flex-direction: column;
+        gap: 15px;
+      }
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/ChatGPT Image Jun 25, 2025, 01_19_34 PM.png" alt="El Mabrouk Logo">
+    <nav>
+      <ul>
+        <li><a href="#about">عنّا</a></li>
+        <li><a href="#products">منتجاتنا</a></li>
+        <li><a href="#location">موقعنا</a></li>
+        <li><a href="#contact">للتواصل</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>عنّا</h2>
+    <p>نحن شركة <strong>المبروك</strong>، نُقدم أفضل أنواع المناديل الورقية المصنوعة من خامات عالية الجودة، ونحرص على تلبية احتياجات الأسرة المصرية والمكاتب والمطاعم والشركات.</p>
+    <p>بدأنا رحلتنا منذ عدة سنوات، ونجحنا في بناء سمعة قوية في السوق المحلي بفضل التزامنا بالجودة وخدمة العملاء المتميزة. هدفنا هو تقديم منتج نظيف وآمن وموثوق بسعر مناسب.</p>
+  </section>
+
+  <section id="products">
+    <h2>منتجاتنا</h2>
+    <ul>
+      <li>مناديل رول كبيرة وصغيرة</li>
+      <li>مناديل وجه ناعمة ومعطرة</li>
+      <li>مناديل للسيارات والجيب</li>
+      <li>مناديل مخصصة للمطاعم والفنادق</li>
+      <li>مناديل سفرة عالية الامتصاص</li>
+    </ul>
+    <p>جميع منتجاتنا تمر باختبارات جودة دقيقة لضمان الراحة والنظافة لكل مستخدم.</p>
+  </section>
+
+  <section id="location">
+    <h2>موقعنا</h2>
+    <p>📍  العنوان الرئيسي: تقاطع شارع اسحاق مع شارع غبريال</p>
+    <p>🚚 لدينا موزعون معتمدون في: الجيزة، الإسكندرية، طنطا، المنصورة، أسيوط، سوهاج، والمنيا.</p>
+    <p>🛒 قريباً: خدمة الطلب أونلاين والدفع عند الاستلام في جميع أنحاء الجمهورية.</p>
+  </section>
+
+  <section id="contact">
+    <h2>للتواصل</h2>
+    <p>📞 الهاتف: <strong>01282951130 / 035739636 / 01221237523</strong></p>
+    <p>📱 واتساب: 
+      <a href="https://wa.me/201282951130" target="_blank">راسلنا على 01282951130</a> |
+      <a href="https://wa.me/201221237523" target="_blank">راسلنا على 01221237523</a>
+    </p>
+    <p>📧 البريد الإلكتروني: <strong>info@elmabrouk.com</strong></p>
+    <p>📲 تابعونا على فيسبوك وإنستجرام لمزيد من العروض والمنتجات الجديدة.</p>
+  </section>
+
+  <footer>
+    &copy; 2025   جميع الحقوق محفوظة - شركة المبروك للمنتجات الورقية. 
+  </footer>
+</body>
+</html>
